@@ -1,0 +1,266 @@
+
+Table of Contents
+
+1. Feb.13, 2024 – layers of an operating system
+2. Feb.14, 2024 – How processors are made.
+3. Feb.15, 2024 – Recap
+4. Feb. 20, 2024 – Hardware/Software review and permissions within an operating system/ virtual machine 
+5. Feb. 21, 2024 – VMs and permissions:
+6. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb.13, 2024 – layers of an operating system
+* Hardware directly has contact with firmware. Above firmware is BIOS (binary input output system), which connects with the kernel (operating system starts at this level). 
+* Firmware is the base layer of programming that exists on the hardware. 
+* Switches are used in a local network, meanwhile, routers are used for outer networks.
+* Binary is also known as “machine language”, and assembly code is a level above “machine language.”
+* BIOS is the firmware for the motherboard. Motherboard checks to see if all parts/equipment are there and working correctly like a pre-checkup. BIOS’s main job is to check for anything that may not be working as it should.
+* Kernal’s main job is to determine the “style/architecture” of the operating system based on what it is being use for. 
+* Kernal interacts with the firmware and connects it to the other parts of the hardware. 
+
+Feb.14, 2024 – How processors are made.
+* CPU communicates between all the layers of an operating system.
+* Kernal tells the CPU all the data that it needs.
+* Silicone is made of sand.
+Feb.15, 2024 – Recap
+* A small current is made with changing magnetic fields. 
+* Nothing happens with static magnetic fields.
+* Data can be stored as Binary.
+* Binary is a representation of a current, they do NOT store numbers
+* Data is stored in blocks within concentric rings within the HDD.
+* Data management – blocks normally DO NOT overlap, but they can sometimes overlap in newer tech-based HDDs. 
+* There are chunks of space within the blocks for Addressing, this helps locate where the specific blocks are within the disk. Beside the chunk, there is another block that helps the system know what is in the file. (usually stores about four kilobytes)     
+* “Defragmenting” is the process that reorganizes the blocks so that it is faster to retrieve the data within the block. 
+*  Beside the two previous chunks, there is a storage and checksum unit. 
+* The checksum makes sure that the values of the files are the same and that the checksum of the file is the same and the data within the file has not been manipulated and changed what was stored. 
+*  Trojan virus: A virus that can be found within the storage which is why the checksum ensures that nothing has been changed.
+* The batteries that are inside the HDD are made of Cobalt. 
+* The north/south poles within a battery within the HDD are like Binary. 
+* The waves that are generated from an HDD are represented by Binary. 
+*  Shell comes after the Kernal in the layers of an operating system, which is followed by a file system. Together, the BIOS, Kernal, Shell, and File System make up the OS. 
+* The CPU is like the city hall of a computer.
+Feb. 20, 2024 – Hardware/Software review and permissions within an operating system/ virtual machine 
+* A “Flipperzero” is a tool used for radio hacking that can be used to execute hacking projects.
+
+Feb. 21, 2024 – VMs and permissions:
+* OS controls the hardware.
+* VM “thinks” that it has its own computer components.
+* When we are setting up our VMs we will choose the confines/what limits our system.mk
+* There is more freedom while using VMSs than using physical devices/systems.
+* The machine that you use to access a VM is known as a host machine.
+* If a VM is harmed, it will not affect the host computer.
+* A configuration is a grouping of how you sort stuff in a configuration/ the way you describe it.
+* One of the basic types of hacking is social. Hacking is not all about sitting behind a keyboard with flashing stuff on a screen.
+* We will set up configurations in our VM.  
+* An example of permissions and configurations is our school account.
+* Companies that are trusted sources have insurance, which can include digital insurance.
+Feb.22, 2024 – File structure and Permissions:
+* Permissions are the type of access that is granted to a user/group for an object or property.
+* The most common types of user access levels include Administrator access, User access, Guest access and restricted access. These access levels allow for different amounts of privileges or control over a system/network, this access ranges from complete control (administrator) to limited use (guest/restricted). 
+* File permissions control which users are permitted to perform certain actions on a file, they are essential because they prevent modifications to files by attackers.
+* Permissions and access control ensure that only authorized users have access to relevant systems, tools, and other information to minimize the risk of unauthorized changes or data breaches. 
+Feb.28, 2024 – Different types of computer systems
+* GUI (Graphical User Interface) is when you can see the commands and any applications that you want to run. 
+*  A Headlist is a type of 
+Feb.29, 2024 – Basic Linux commands
+These commands are case-sensitive, and it is recommended that we do not put spaces between words for the name of a file
+* cd name of folder (Change Directory) – We use this command to change the directory 
+* PWD (Present Working Directory)
+* ../ - Go back up one level
+* ../../ - Go back two levels
+* Control Z – This is the ‘quit’ command and it is used to stop any ongoing processes. 
+* ls - Tells you what is available/around you to see what folders/files you have access to. The names of these files are case-sensitive
+* ls -l     : this means “give me a long list”
+March 6, 2024 – Linux Commands: Continued
+* Make a folder – mkdir name (make a directory)
+* Make a file (txt) – touch name 
+* Delete a file (txt) – rm filename
+* Delete a directory - rmdir directory_name
+* Rename a folder – mv old name new name / rename command 
+* Rename a file (txt) – mv old file name new file name
+* Renaming File (new) - rename 's/old_name/new_name/' file_name
+* Move a folder – mv old folder new folder 
+cp -r source_folder destination_folder (if you want to remove the folder from the previous location) && rm -r source_folder
+* Move a file (txt) - source_file destination_file (if you want to remove the file from the previous location) && rm -r source_file
+* How to enter a file in a terminal: nano filename
+
+March 11, 2024 – walkthrough of VM and tips/directions/tricks
+* “/” is “forward-slash” and is commonly used in a Linux operating system and the “back-slash” is mainly used for Windows.
+* “~’ is known as “Tildie” and stands for home and username.
+* When there is a “/$” that means you are currently in the home directory. 
+* After using the “ls -l” command, you will get a list of directories and their names, the storage they take up in BYTES, when they were made, and more.
+* If you want to name a file/folder with more than one word as a title/name then you can use the “quotation marks” around the name.
+* A script is a set of directions for a system to follow which can help you download a program or run a series of commands. 
+* Using the nano command opens a buffer
+
+March 13, 2024 – Commands/Scripting
+* If you want to make a file with nano without having to rename it, use the command “nano filename”.
+* “.sh” is the default file type for bash. 
+* To run a script, use the “ bash filename” command. 
+
+March 16, 2024 – Commands/Scripting
+* “read” reads the information that was entered and the “if statements” are just Boolean statements.
+* If one of the statements proves to be true, then the other statements are ignored, and the script is complete.
+* If none of the if statements prove to be true, then there is an “else” statement for backup. 
+
+April 25, 2024 – Publicly Traded Company research
+Mercedes-Benz Group AG
+* History: 
+
+* Mercedes-Benz is one of the oldest and most well-known luxury car brands in the world. Mercedes was founded in Germany in 1926.
+* The origins of Mercedes-Benz date back to the late 1800s, when Gottlieb Daimler and Karl Benz were working on separate projects to develop gasoline-powered engines. Eventually, both Daimler and Benz combined their ideas to found the Mercedes-Benz company.
+* The first Mercedes car was introduced in 1901, and it quickly gained a reputation for quality and performance. 
+* In the 1930s, Mercedes-Benz became known for producing some of the most advanced and powerful cars of the era. The company's Silver Arrow racing cars were well-known on the international racing circuit, setting speed records and winning numerous races.
+
+* Mercedes-Benz's reputation for luxury and performance continued to grow throughout the mid-20th century. Their development was seen throughout iconic projects such as the 300SL "Gullwing", the W108 and W111 models through the 1950s to 1970s.
+* In the 21st century, Mercedes-Benz has continued to produce a range of luxury cars and sports cars. The company's product range includes the S-Class, E-Class, and C-Class sedans, as well as the SL, AMG GT, and other performance-focused models.
+* Overall, the history of Mercedes-Benz is a story of innovation, engineering excellence, and luxury. From its earliest days as a new company producer to its position today as a top-tier luxury car brand, Mercedes-Benz has remained committed to creating cars that combine performance, style, and luxury to form a unique, and highly regarded company.
+
+* Location of offices:
+The main office (headquarters) of Mercedes-Benz group is located in Stuttgart, Germany. 
+
+* Location of data centers:    
+The primary location of the Mercedes-Benz/Daimler car company was previously in Stuttgart, Germany. However, recently Merecedes has been expanding/moving their data center to be in  primarily Norway, at the Lefdal Mine Data center for sustainability reasons. 
+* Past security breaches:
+January 2024, a threat hunter at RedUnt
+How to change a file type from txt to odt
+Use this command: soffice --convert-to odt myfile.txt
+
+Number game instructions/ guidelines
+* There should be a random number between 15 and 1000 chosen by the script, and the user should be trying to guess the number.
+* There should be a maximum of 15 guesses.
+* The game should start by stating “Hello, welcome to the exclusive Number Game. You have a maximum of 15 tries to guess a random number between 15 and 1000. Please enter your first guess below. Good luck!!” 
+* If the number the person guesses is wrong, the echo should be “Unfortunately, the number you guessed was wrong.”. This should be followed by a statement, “The number you entered: userNumber, is too low, please try again!” if the number is lower than the random number. If the number that the person entered is too high, the following statement should come after the introduction, “The number you entered: userNumber, is too high, please try again!” 
+* If the user does not get the correct answer, there should be another input channel open under the previous writing, giving the user another chance to guess the correct number. This cycle continues to repeat until either the user guesses the correct number, or the 15 tries are up.  
+* If the number that was entered is correct, the echo should be “Congratulations, the number you entered: userNumber, is correct!!. You successfully cracked the code!!” 
+* If the user inputs something other than numbers, there should be an echo stating, “The expression you entered is invalid. Please enter a valid number!”
+* After the correct number is entered, there should be an option to restart the game or end it, and all the previously entered numbers and any previous words should automatically be erased. 
+* If the 15 tries are over and the correct number is not entered, there should be an echo stating “Unfortunately, you did not successfully guess the correct number in 15 tries ?. Please reload the game and try again, GOOD LUCK!??
+ 
+What is “nano”
+Nano is not a command, but it is a text editor for Unix-like operating systems such as Linux. It provides a simple and easy-to-use interface for viewing and editing text files directly from the terminal. nano is particularly designed for users who may not be familiar with more complex text editors like ‘vi’ or ‘emacs’.
+* Using the nano command opens a new buffer.
+* Using the “#!/bin/bash” command converts the language being used to English/ a language we can understand. 
+* Following, use the ‘Echo’ command, you can start inputting material into a new file.
+* Enter whatever text you want and then click the CTRL + O buttons to “write out”/ save it.  
+* Then, type the filename followed by “.sh’. 
+* If everything works right, you should have successfully had a saved file by the end of this procedure. 
+ 
+Virtual Machine
+* A virtual machine (VM) is a computer file, typically called an image, which behaves like an actual computer. 
+* There are many benefits of a virtual machine including Cost savings (before VMs were made possible, you would have to spend significantly more money to buy a physical device that supports the type of operating system that you want to examine), easy replacement (It takes a lot of effort to replace a physical server, but it is very easy to replace a virtual server environment), and more.
+* There are also some disadvantages of virtual machines such as running multiple VMs on one physical machine can result in unstable performance and VMs are less efficient and VMs are less efficient and run slower than a physical computer.
+
+
+Different types of operating systems and their purposes
+
+* Microsoft Windows – 
+* Apple macOS – 
+* Google’s Android OS – 
+* Linux Operating System – 
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Central Processing Unit (CPU): often referred to as the brain of the computer, the CPU executes instructions and performs calculations. It is a critical component for overall system performance.
+                                 
+
+* Memory (RAM): Random Access Memory is used for temporary storage of data, but it loses content when the computer is powered off. 
+                           
+
+* Storage:
+o  Hard Disk Drive (HDD): Traditional storage devices that use spinning disks to read/write data.
+o Solid State Drive (SSD): Faster and more durable than HDDs, SSDs use flash memory to store data.
+
+                    
+* Motherboard: the main circuit board that connects and facilitates communication between various hardware components, such as CPU, memory, storage, and peripherals.
+                 
+
+* Power Supply Unit (PSU): Converts electrical power from an outlet into a form that the computer components can use. It provides power to the motherboard, CPU, and other internal components. 
+                 
+
+* Graphics Processing Unit (GPU): The GPU is responsible for rendering graphics and performing processing tasks. It is crucial for tasks such as gaming, video editing, and other graphics-intensive applications. 
+                  
+
+* Input devices:
+o Keyboard: Used for imputing text and commands.
+o Mouse: A pointing device for interacting with the graphical user interface. 
+o Other input devices: Touchpads, trackballs, and other devices for specialized input.
+
+* Output devices:
+* Monitor: Displays visual output from the computer.
+* Printer: Produces hard copies of digital documents.
+* Speakers: Output sound for audio playback.
+
+
+* Networking Components: 
+* Network Interface Card (NIC): enables the computer to connect to a network. 
+* Wi-fi Adapters: Allows wireless network connectivity.
+          
+
+* Expansion Cards: Additional cards that can be inserted into expansion slots on the motherboard to add functionality. Common types include graphics cards, sound cards, and network cards.
+         
+
+* Cooling System: Keeps the temperature of the CPU and other components within acceptable limits to prevent overheating. It usually includes fans, heat sinks, and sometimes liquid cooling systems.
+                           
+
+* Operating system (OS): Software that manages hardware resources and provides a user interface, Common operating systems include Windows, macOS, and Linux. 
+
+Cybersecurity and Global IT concepts
+
+Grade 10
+
+
+
+
+
+
+
+September 10, 2024
+
+PC Part Picker - PC part picker - Game developer 
+Software for gaming developers: 
+Game Engines, Integrated Development Environments (IDEs), Version Control Systems, 3D Modeling and Animation Software, 2D Art and Design Tools, Audio Design Software, Project Management and Collaboration Tools, Profiling and Optimization Tools, Debugging and Testing Tools, Cloud Storage and Backup Tools, Virtual Machine (VM) and Sandbox Tools, Analytics and Crash Reporting Tools, Cloud Build Services, Networking and Cybersecurity Tools, Learning and Reference Tools. 
+
+September 18, 2024
+Root directory – to enter root directory, use cd / (this means that root is the “base” of the terminal and nothing is in front of the “/”
+Exit root directory – To exit root directory, go to home, then username
+GitHub personal token access: “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”
+
+October 8, 2024
+
+cd /   - change directory to root directory
+su -    Switch user to root
+ 
+
+Notes from Cybersecurity and networking
+
