@@ -1,11 +1,11 @@
 
 Table of Contents
 
-1. Feb.13, 2024 ñ layers of an operating system
-2. Feb.14, 2024 ñ How processors are made.
-3. Feb.15, 2024 ñ Recap
-4. Feb. 20, 2024 ñ Hardware/Software review and permissions within an operating system/ virtual machine 
-5. Feb. 21, 2024 ñ VMs and permissions:
+1. Feb.13, 2024 ‚Äì layers of an operating system
+2. Feb.14, 2024 ‚Äì How processors are made.
+3. Feb.15, 2024 ‚Äì Recap
+4. Feb. 20, 2024 ‚Äì Hardware/Software review and permissions within an operating system/ virtual machine 
+5. Feb. 21, 2024 ‚Äì VMs and permissions:
 6. 
 
 
@@ -29,28 +29,28 @@ Table of Contents
 
 
 
-Feb.13, 2024 ñ layers of an operating system
+Feb.13, 2024 ‚Äì layers of an operating system
 * Hardware directly has contact with firmware. Above firmware is BIOS (binary input output system), which connects with the kernel (operating system starts at this level). 
 * Firmware is the base layer of programming that exists on the hardware. 
 * Switches are used in a local network, meanwhile, routers are used for outer networks.
-* Binary is also known as ìmachine languageî, and assembly code is a level above ìmachine language.î
-* BIOS is the firmware for the motherboard. Motherboard checks to see if all parts/equipment are there and working correctly like a pre-checkup. BIOSís main job is to check for anything that may not be working as it should.
-* Kernalís main job is to determine the ìstyle/architectureî of the operating system based on what it is being use for. 
+* Binary is also known as ‚Äúmachine language‚Äù, and assembly code is a level above ‚Äúmachine language.‚Äù
+* BIOS is the firmware for the motherboard. Motherboard checks to see if all parts/equipment are there and working correctly like a pre-checkup. BIOS‚Äôs main job is to check for anything that may not be working as it should.
+* Kernal‚Äôs main job is to determine the ‚Äústyle/architecture‚Äù of the operating system based on what it is being use for. 
 * Kernal interacts with the firmware and connects it to the other parts of the hardware. 
 
-Feb.14, 2024 ñ How processors are made.
+Feb.14, 2024 ‚Äì How processors are made.
 * CPU communicates between all the layers of an operating system.
 * Kernal tells the CPU all the data that it needs.
 * Silicone is made of sand.
-Feb.15, 2024 ñ Recap
+Feb.15, 2024 ‚Äì Recap
 * A small current is made with changing magnetic fields. 
 * Nothing happens with static magnetic fields.
 * Data can be stored as Binary.
 * Binary is a representation of a current, they do NOT store numbers
 * Data is stored in blocks within concentric rings within the HDD.
-* Data management ñ blocks normally DO NOT overlap, but they can sometimes overlap in newer tech-based HDDs. 
+* Data management ‚Äì blocks normally DO NOT overlap, but they can sometimes overlap in newer tech-based HDDs. 
 * There are chunks of space within the blocks for Addressing, this helps locate where the specific blocks are within the disk. Beside the chunk, there is another block that helps the system know what is in the file. (usually stores about four kilobytes)     
-* ìDefragmentingî is the process that reorganizes the blocks so that it is faster to retrieve the data within the block. 
+* ‚ÄúDefragmenting‚Äù is the process that reorganizes the blocks so that it is faster to retrieve the data within the block. 
 *  Beside the two previous chunks, there is a storage and checksum unit. 
 * The checksum makes sure that the values of the files are the same and that the checksum of the file is the same and the data within the file has not been manipulated and changed what was stored. 
 *  Trojan virus: A virus that can be found within the storage which is why the checksum ensures that nothing has been changed.
@@ -59,12 +59,12 @@ Feb.15, 2024 ñ Recap
 * The waves that are generated from an HDD are represented by Binary. 
 *  Shell comes after the Kernal in the layers of an operating system, which is followed by a file system. Together, the BIOS, Kernal, Shell, and File System make up the OS. 
 * The CPU is like the city hall of a computer.
-Feb. 20, 2024 ñ Hardware/Software review and permissions within an operating system/ virtual machine 
-* A ìFlipperzeroî is a tool used for radio hacking that can be used to execute hacking projects.
+Feb. 20, 2024 ‚Äì Hardware/Software review and permissions within an operating system/ virtual machine 
+* A ‚ÄúFlipperzero‚Äù is a tool used for radio hacking that can be used to execute hacking projects.
 
-Feb. 21, 2024 ñ VMs and permissions:
+Feb. 21, 2024 ‚Äì VMs and permissions:
 * OS controls the hardware.
-* VM ìthinksî that it has its own computer components.
+* VM ‚Äúthinks‚Äù that it has its own computer components.
 * When we are setting up our VMs we will choose the confines/what limits our system.mk
 * There is more freedom while using VMSs than using physical devices/systems.
 * The machine that you use to access a VM is known as a host machine.
@@ -74,56 +74,56 @@ Feb. 21, 2024 ñ VMs and permissions:
 * We will set up configurations in our VM.  
 * An example of permissions and configurations is our school account.
 * Companies that are trusted sources have insurance, which can include digital insurance.
-Feb.22, 2024 ñ File structure and Permissions:
+Feb.22, 2024 ‚Äì File structure and Permissions:
 * Permissions are the type of access that is granted to a user/group for an object or property.
 * The most common types of user access levels include Administrator access, User access, Guest access and restricted access. These access levels allow for different amounts of privileges or control over a system/network, this access ranges from complete control (administrator) to limited use (guest/restricted). 
 * File permissions control which users are permitted to perform certain actions on a file, they are essential because they prevent modifications to files by attackers.
 * Permissions and access control ensure that only authorized users have access to relevant systems, tools, and other information to minimize the risk of unauthorized changes or data breaches. 
-Feb.28, 2024 ñ Different types of computer systems
+Feb.28, 2024 ‚Äì Different types of computer systems
 * GUI (Graphical User Interface) is when you can see the commands and any applications that you want to run. 
 *  A Headlist is a type of 
-Feb.29, 2024 ñ Basic Linux commands
+Feb.29, 2024 ‚Äì Basic Linux commands
 These commands are case-sensitive, and it is recommended that we do not put spaces between words for the name of a file
-* cd name of folder (Change Directory) ñ We use this command to change the directory 
+* cd name of folder (Change Directory) ‚Äì We use this command to change the directory 
 * PWD (Present Working Directory)
 * ../ - Go back up one level
 * ../../ - Go back two levels
-* Control Z ñ This is the ëquití command and it is used to stop any ongoing processes. 
+* Control Z ‚Äì This is the ‚Äòquit‚Äô command and it is used to stop any ongoing processes. 
 * ls - Tells you what is available/around you to see what folders/files you have access to. The names of these files are case-sensitive
-* ls -l     : this means ìgive me a long listî
-March 6, 2024 ñ Linux Commands: Continued
-* Make a folder ñ mkdir name (make a directory)
-* Make a file (txt) ñ touch name 
-* Delete a file (txt) ñ rm filename
+* ls -l     : this means ‚Äúgive me a long list‚Äù
+March 6, 2024 ‚Äì Linux Commands: Continued
+* Make a folder ‚Äì mkdir name (make a directory)
+* Make a file (txt) ‚Äì touch name 
+* Delete a file (txt) ‚Äì rm filename
 * Delete a directory - rmdir directory_name
-* Rename a folder ñ mv old name new name / rename command 
-* Rename a file (txt) ñ mv old file name new file name
+* Rename a folder ‚Äì mv old name new name / rename command 
+* Rename a file (txt) ‚Äì mv old file name new file name
 * Renaming File (new) - rename 's/old_name/new_name/' file_name
-* Move a folder ñ mv old folder new folder 
+* Move a folder ‚Äì mv old folder new folder 
 cp -r source_folder destination_folder (if you want to remove the folder from the previous location) && rm -r source_folder
 * Move a file (txt) - source_file destination_file (if you want to remove the file from the previous location) && rm -r source_file
 * How to enter a file in a terminal: nano filename
 
-March 11, 2024 ñ walkthrough of VM and tips/directions/tricks
-* ì/î is ìforward-slashî and is commonly used in a Linux operating system and the ìback-slashî is mainly used for Windows.
-* ì~í is known as ìTildieî and stands for home and username.
-* When there is a ì/$î that means you are currently in the home directory. 
-* After using the ìls -lî command, you will get a list of directories and their names, the storage they take up in BYTES, when they were made, and more.
-* If you want to name a file/folder with more than one word as a title/name then you can use the ìquotation marksî around the name.
+March 11, 2024 ‚Äì walkthrough of VM and tips/directions/tricks
+* ‚Äú/‚Äù is ‚Äúforward-slash‚Äù and is commonly used in a Linux operating system and the ‚Äúback-slash‚Äù is mainly used for Windows.
+* ‚Äú~‚Äô is known as ‚ÄúTildie‚Äù and stands for home and username.
+* When there is a ‚Äú/$‚Äù that means you are currently in the home directory. 
+* After using the ‚Äúls -l‚Äù command, you will get a list of directories and their names, the storage they take up in BYTES, when they were made, and more.
+* If you want to name a file/folder with more than one word as a title/name then you can use the ‚Äúquotation marks‚Äù around the name.
 * A script is a set of directions for a system to follow which can help you download a program or run a series of commands. 
 * Using the nano command opens a buffer
 
-March 13, 2024 ñ Commands/Scripting
-* If you want to make a file with nano without having to rename it, use the command ìnano filenameî.
-* ì.shî is the default file type for bash. 
-* To run a script, use the ì bash filenameî command. 
+March 13, 2024 ‚Äì Commands/Scripting
+* If you want to make a file with nano without having to rename it, use the command ‚Äúnano filename‚Äù.
+* ‚Äú.sh‚Äù is the default file type for bash. 
+* To run a script, use the ‚Äú bash filename‚Äù command. 
 
-March 16, 2024 ñ Commands/Scripting
-* ìreadî reads the information that was entered and the ìif statementsî are just Boolean statements.
+March 16, 2024 ‚Äì Commands/Scripting
+* ‚Äúread‚Äù reads the information that was entered and the ‚Äúif statements‚Äù are just Boolean statements.
 * If one of the statements proves to be true, then the other statements are ignored, and the script is complete.
-* If none of the if statements prove to be true, then there is an ìelseî statement for backup. 
+* If none of the if statements prove to be true, then there is an ‚Äúelse‚Äù statement for backup. 
 
-April 25, 2024 ñ Publicly Traded Company research
+April 25, 2024 ‚Äì Publicly Traded Company research
 Mercedes-Benz Group AG
 * History: 
 
@@ -149,21 +149,21 @@ Use this command: soffice --convert-to odt myfile.txt
 Number game instructions/ guidelines
 * There should be a random number between 15 and 1000 chosen by the script, and the user should be trying to guess the number.
 * There should be a maximum of 15 guesses.
-* The game should start by stating ìHello, welcome to the exclusive Number Game. You have a maximum of 15 tries to guess a random number between 15 and 1000. Please enter your first guess below. Good luck!!î 
-* If the number the person guesses is wrong, the echo should be ìUnfortunately, the number you guessed was wrong.î. This should be followed by a statement, ìThe number you entered: userNumber, is too low, please try again!î if the number is lower than the random number. If the number that the person entered is too high, the following statement should come after the introduction, ìThe number you entered: userNumber, is too high, please try again!î 
+* The game should start by stating ‚ÄúHello, welcome to the exclusive Number Game. You have a maximum of 15 tries to guess a random number between 15 and 1000. Please enter your first guess below. Good luck!!‚Äù 
+* If the number the person guesses is wrong, the echo should be ‚ÄúUnfortunately, the number you guessed was wrong.‚Äù. This should be followed by a statement, ‚ÄúThe number you entered: userNumber, is too low, please try again!‚Äù if the number is lower than the random number. If the number that the person entered is too high, the following statement should come after the introduction, ‚ÄúThe number you entered: userNumber, is too high, please try again!‚Äù 
 * If the user does not get the correct answer, there should be another input channel open under the previous writing, giving the user another chance to guess the correct number. This cycle continues to repeat until either the user guesses the correct number, or the 15 tries are up.  
-* If the number that was entered is correct, the echo should be ìCongratulations, the number you entered: userNumber, is correct!!. You successfully cracked the code!!î 
-* If the user inputs something other than numbers, there should be an echo stating, ìThe expression you entered is invalid. Please enter a valid number!î
+* If the number that was entered is correct, the echo should be ‚ÄúCongratulations, the number you entered: userNumber, is correct!!. You successfully cracked the code!!‚Äù 
+* If the user inputs something other than numbers, there should be an echo stating, ‚ÄúThe expression you entered is invalid. Please enter a valid number!‚Äù
 * After the correct number is entered, there should be an option to restart the game or end it, and all the previously entered numbers and any previous words should automatically be erased. 
-* If the 15 tries are over and the correct number is not entered, there should be an echo stating ìUnfortunately, you did not successfully guess the correct number in 15 tries ?. Please reload the game and try again, GOOD LUCK!??
+* If the 15 tries are over and the correct number is not entered, there should be an echo stating ‚ÄúUnfortunately, you did not successfully guess the correct number in 15 tries ?. Please reload the game and try again, GOOD LUCK!??
  
-What is ìnanoî
-Nano is not a command, but it is a text editor for Unix-like operating systems such as Linux. It provides a simple and easy-to-use interface for viewing and editing text files directly from the terminal. nano is particularly designed for users who may not be familiar with more complex text editors like ëvií or ëemacsí.
+What is ‚Äúnano‚Äù
+Nano is not a command, but it is a text editor for Unix-like operating systems such as Linux. It provides a simple and easy-to-use interface for viewing and editing text files directly from the terminal. nano is particularly designed for users who may not be familiar with more complex text editors like ‚Äòvi‚Äô or ‚Äòemacs‚Äô.
 * Using the nano command opens a new buffer.
-* Using the ì#!/bin/bashî command converts the language being used to English/ a language we can understand. 
-* Following, use the ëEchoí command, you can start inputting material into a new file.
-* Enter whatever text you want and then click the CTRL + O buttons to ìwrite outî/ save it.  
-* Then, type the filename followed by ì.shí. 
+* Using the ‚Äú#!/bin/bash‚Äù command converts the language being used to English/ a language we can understand. 
+* Following, use the ‚ÄòEcho‚Äô command, you can start inputting material into a new file.
+* Enter whatever text you want and then click the CTRL + O buttons to ‚Äúwrite out‚Äù/ save it.  
+* Then, type the filename followed by ‚Äú.sh‚Äô. 
 * If everything works right, you should have successfully had a saved file by the end of this procedure. 
  
 Virtual Machine
@@ -174,10 +174,10 @@ Virtual Machine
 
 Different types of operating systems and their purposes
 
-* Microsoft Windows ñ 
-* Apple macOS ñ 
-* Googleís Android OS ñ 
-* Linux Operating System ñ 
+* Microsoft Windows ‚Äì 
+* Apple macOS ‚Äì 
+* Google‚Äôs Android OS ‚Äì 
+* Linux Operating System ‚Äì 
 
 
 
@@ -252,9 +252,9 @@ Software for gaming developers:
 Game Engines, Integrated Development Environments (IDEs), Version Control Systems, 3D Modeling and Animation Software, 2D Art and Design Tools, Audio Design Software, Project Management and Collaboration Tools, Profiling and Optimization Tools, Debugging and Testing Tools, Cloud Storage and Backup Tools, Virtual Machine (VM) and Sandbox Tools, Analytics and Crash Reporting Tools, Cloud Build Services, Networking and Cybersecurity Tools, Learning and Reference Tools. 
 
 September 18, 2024
-Root directory ñ to enter root directory, use cd / (this means that root is the ìbaseî of the terminal and nothing is in front of the ì/î
-Exit root directory ñ To exit root directory, go to home, then username
-GitHub personal token access: ì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î
+Root directory ‚Äì to enter root directory, use cd / (this means that root is the ‚Äúbase‚Äù of the terminal and nothing is in front of the ‚Äú/‚Äù
+Exit root directory ‚Äì To exit root directory, go to home, then username
+GitHub personal token access: ‚Äú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‚Äù
 
 October 8, 2024
 
@@ -264,3 +264,8 @@ su -    Switch user to root
 
 Notes from Cybersecurity and networking
 
+
+October 9, 2024
+
+Git Notes:
+https://smailpembinatrails-my.sharepoint.com/:w:/g/personal/aasikri_smail_pembinatrails_ca/ESgcHJQ6CRRDju2SaWq4Wg8B_xNZSWcQ7cijWtvG0NuTCQ?e=iTEUub
