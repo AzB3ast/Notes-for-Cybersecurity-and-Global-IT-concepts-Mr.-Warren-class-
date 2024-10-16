@@ -6,7 +6,7 @@ Table of Contents
 3. Feb.15, 2024 – Recap
 4. Feb. 20, 2024 – Hardware/Software review and permissions within an operating system/ virtual machine 
 5. Feb. 21, 2024 – VMs and permissions:
-7.	Feb.28, 2024 – Different types of computer systems
+7. Feb.28, 2024 – Different types of computer systems
 8.	Feb.29, 2024 – Basic Linux commands
 9.	March 6, 2024 – Linux Commands: Continued
 10.	March 11, 2024 – walkthrough of VM and tips/directions/tricks
