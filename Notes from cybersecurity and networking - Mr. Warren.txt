@@ -1,5 +1,19 @@
 
-Table of Contents
+&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?
+%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^
+#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#
+!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@                                                    
+                                                                                                                                                                                                                    
+                                                    Notes for cybersecurity class (Mr. Warren class) 
+                                                            Table of Contents
+
+!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@
+#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#
+%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^
+&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?
+
+
+                Grade 9
 
 1. Feb.13, 2024 – layers of an operating system
 2. Feb.14, 2024 – How processors are made.
@@ -7,16 +21,24 @@ Table of Contents
 4. Feb. 20, 2024 – Hardware/Software review and permissions within an operating system/ virtual machine 
 5. Feb. 21, 2024 – VMs and permissions:
 7. Feb.28, 2024 – Different types of computer systems
-8.	Feb.29, 2024 – Basic Linux commands
-9.	March 6, 2024 – Linux Commands: Continued
-10.	March 11, 2024 – walkthrough of VM and tips/directions/tricks
-11.	March 13, 2024 – Commands/Scripting
-12.	April 25, 2024 – Publicly Traded Company research
-13.	Number game instructions/ guidelines
-14.	What is “nano”
-15.	Virtual Machine
-16.	Different types of operating systems and their purposes
-17.	Computer Hardware components
+8. Feb.29, 2024 – Basic Linux commands
+9. March 6, 2024 – Linux Commands: Continued
+10.March 11, 2024 – walkthrough of VM and tips/directions/tricks
+11.March 13, 2024 – Commands/Scripting
+12.April 25, 2024 – Publicly Traded Company research
+13.Number game instructions/ guidelines
+14.What is “nano”
+15.Virtual Machine
+16.Different types of operating systems and their purposes
+17.Computer Hardware components
+
+                Grade 10
+
+1.	September 10, 2024 – PC part picker
+2.	September 18, 2024 – root directory/ Github PAC
+3.	October 8, 2024 – root commands
+4.	October 9, 2024 – link for notes 
+5.	
 
 
 
@@ -40,7 +62,8 @@ Table of Contents
 
 
 
-Feb.13, 2024 – layers of an operating system
+                                    Feb.13, 2024 – layers of an operating system
+
 * Hardware directly has contact with firmware. Above firmware is BIOS (binary input output system), which connects with the kernel (operating system starts at this level). 
 * Firmware is the base layer of programming that exists on the hardware. 
 * Switches are used in a local network, meanwhile, routers are used for outer networks.
@@ -49,11 +72,14 @@ Feb.13, 2024 – layers of an operating system
 * Kernal’s main job is to determine the “style/architecture” of the operating system based on what it is being use for. 
 * Kernal interacts with the firmware and connects it to the other parts of the hardware. 
 
-Feb.14, 2024 – How processors are made.
+                                    Feb.14, 2024 – How processors are made.
+
 * CPU communicates between all the layers of an operating system.
 * Kernal tells the CPU all the data that it needs.
 * Silicone is made of sand.
-Feb.15, 2024 – Recap
+
+                                    Feb.15, 2024 – Recap
+
 * A small current is made with changing magnetic fields. 
 * Nothing happens with static magnetic fields.
 * Data can be stored as Binary.
@@ -70,10 +96,13 @@ Feb.15, 2024 – Recap
 * The waves that are generated from an HDD are represented by Binary. 
 *  Shell comes after the Kernal in the layers of an operating system, which is followed by a file system. Together, the BIOS, Kernal, Shell, and File System make up the OS. 
 * The CPU is like the city hall of a computer.
-Feb. 20, 2024 – Hardware/Software review and permissions within an operating system/ virtual machine 
+
+        Feb. 20, 2024 – Hardware/Software review and permissions within an operating system/ virtual machine 
+
 * A “Flipperzero” is a tool used for radio hacking that can be used to execute hacking projects.
 
-Feb. 21, 2024 – VMs and permissions:
+                                                Feb. 21, 2024 – VMs and permissions:
+
 * OS controls the hardware.
 * VM “thinks” that it has its own computer components.
 * When we are setting up our VMs we will choose the confines/what limits our system.mk
@@ -85,15 +114,21 @@ Feb. 21, 2024 – VMs and permissions:
 * We will set up configurations in our VM.  
 * An example of permissions and configurations is our school account.
 * Companies that are trusted sources have insurance, which can include digital insurance.
-Feb.22, 2024 – File structure and Permissions:
+
+                                            Feb.22, 2024 – File structure and Permissions:
+
 * Permissions are the type of access that is granted to a user/group for an object or property.
 * The most common types of user access levels include Administrator access, User access, Guest access and restricted access. These access levels allow for different amounts of privileges or control over a system/network, this access ranges from complete control (administrator) to limited use (guest/restricted). 
 * File permissions control which users are permitted to perform certain actions on a file, they are essential because they prevent modifications to files by attackers.
 * Permissions and access control ensure that only authorized users have access to relevant systems, tools, and other information to minimize the risk of unauthorized changes or data breaches. 
-Feb.28, 2024 – Different types of computer systems
+
+                                            Feb.28, 2024 – Different types of computer systems
+
 * GUI (Graphical User Interface) is when you can see the commands and any applications that you want to run. 
 *  A Headlist is a type of 
-Feb.29, 2024 – Basic Linux commands
+
+                                                Feb.29, 2024 – Basic Linux commands
+
 These commands are case-sensitive, and it is recommended that we do not put spaces between words for the name of a file
 * cd name of folder (Change Directory) – We use this command to change the directory 
 * PWD (Present Working Directory)
@@ -102,7 +137,9 @@ These commands are case-sensitive, and it is recommended that we do not put spac
 * Control Z – This is the ‘quit’ command and it is used to stop any ongoing processes. 
 * ls - Tells you what is available/around you to see what folders/files you have access to. The names of these files are case-sensitive
 * ls -l     : this means “give me a long list”
-March 6, 2024 – Linux Commands: Continued
+
+                                            March 6, 2024 – Linux Commands: Continued
+
 * Make a folder – mkdir name (make a directory)
 * Make a file (txt) – touch name 
 * Delete a file (txt) – rm filename
@@ -115,7 +152,8 @@ cp -r source_folder destination_folder (if you want to remove the folder from th
 * Move a file (txt) - source_file destination_file (if you want to remove the file from the previous location) && rm -r source_file
 * How to enter a file in a terminal: nano filename
 
-March 11, 2024 – walkthrough of VM and tips/directions/tricks
+                            March 11, 2024 – walkthrough of VM and tips/directions/tricks
+
 * “/” is “forward-slash” and is commonly used in a Linux operating system and the “back-slash” is mainly used for Windows.
 * “~’ is known as “Tildie” and stands for home and username.
 * When there is a “/$” that means you are currently in the home directory. 
@@ -124,17 +162,20 @@ March 11, 2024 – walkthrough of VM and tips/directions/tricks
 * A script is a set of directions for a system to follow which can help you download a program or run a series of commands. 
 * Using the nano command opens a buffer
 
-March 13, 2024 – Commands/Scripting
+                                            March 13, 2024 – Commands/Scripting
+
 * If you want to make a file with nano without having to rename it, use the command “nano filename”.
 * “.sh” is the default file type for bash. 
 * To run a script, use the “ bash filename” command. 
 
-March 16, 2024 – Commands/Scripting
+                                            March 16, 2024 – Commands/Scripting
+
 * “read” reads the information that was entered and the “if statements” are just Boolean statements.
 * If one of the statements proves to be true, then the other statements are ignored, and the script is complete.
 * If none of the if statements prove to be true, then there is an “else” statement for backup. 
 
-April 25, 2024 – Publicly Traded Company research
+                                    April 25, 2024 – Publicly Traded Company research
+
 Mercedes-Benz Group AG
 * History: 
 
@@ -157,7 +198,8 @@ January 2024, a threat hunter at RedUnt
 How to change a file type from txt to odt
 Use this command: soffice --convert-to odt myfile.txt
 
-Number game instructions/ guidelines
+                                                Number game instructions/ guidelines
+
 * There should be a random number between 15 and 1000 chosen by the script, and the user should be trying to guess the number.
 * There should be a maximum of 15 guesses.
 * The game should start by stating “Hello, welcome to the exclusive Number Game. You have a maximum of 15 tries to guess a random number between 15 and 1000. Please enter your first guess below. Good luck!!” 
@@ -168,7 +210,8 @@ Number game instructions/ guidelines
 * After the correct number is entered, there should be an option to restart the game or end it, and all the previously entered numbers and any previous words should automatically be erased. 
 * If the 15 tries are over and the correct number is not entered, there should be an echo stating “Unfortunately, you did not successfully guess the correct number in 15 tries ?. Please reload the game and try again, GOOD LUCK!??
  
-What is “nano”
+                                                        What is “nano”
+
 Nano is not a command, but it is a text editor for Unix-like operating systems such as Linux. It provides a simple and easy-to-use interface for viewing and editing text files directly from the terminal. nano is particularly designed for users who may not be familiar with more complex text editors like ‘vi’ or ‘emacs’.
 * Using the nano command opens a new buffer.
 * Using the “#!/bin/bash” command converts the language being used to English/ a language we can understand. 
@@ -177,13 +220,14 @@ Nano is not a command, but it is a text editor for Unix-like operating systems s
 * Then, type the filename followed by “.sh’. 
 * If everything works right, you should have successfully had a saved file by the end of this procedure. 
  
-Virtual Machine
+                                                        Virtual Machine
+
 * A virtual machine (VM) is a computer file, typically called an image, which behaves like an actual computer. 
 * There are many benefits of a virtual machine including Cost savings (before VMs were made possible, you would have to spend significantly more money to buy a physical device that supports the type of operating system that you want to examine), easy replacement (It takes a lot of effort to replace a physical server, but it is very easy to replace a virtual server environment), and more.
 * There are also some disadvantages of virtual machines such as running multiple VMs on one physical machine can result in unstable performance and VMs are less efficient and VMs are less efficient and run slower than a physical computer.
 
 
-Different types of operating systems and their purposes
+                                    Different types of operating systems and their purposes
 
 * Microsoft Windows – 
 * Apple macOS – 
@@ -196,7 +240,7 @@ Different types of operating systems and their purposes
 
 
 
-
+                                                  Computer Hardware Componenets 
 
 
 
@@ -248,11 +292,16 @@ o Other input devices: Touchpads, trackballs, and other devices for specialized 
 
 Cybersecurity and Global IT concepts
 
-Grade 10
 
-
-
-
+&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?
+%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^
+#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#
+!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@
+                                                                ~@#**Grade 10**#@!
+!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@
+#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#
+%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^
+&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?&?
 
 
 
@@ -262,21 +311,19 @@ PC Part Picker - PC part picker - Game developer
 Software for gaming developers: 
 Game Engines, Integrated Development Environments (IDEs), Version Control Systems, 3D Modeling and Animation Software, 2D Art and Design Tools, Audio Design Software, Project Management and Collaboration Tools, Profiling and Optimization Tools, Debugging and Testing Tools, Cloud Storage and Backup Tools, Virtual Machine (VM) and Sandbox Tools, Analytics and Crash Reporting Tools, Cloud Build Services, Networking and Cybersecurity Tools, Learning and Reference Tools. 
 
-September 18, 2024
+September 18, 2024 - Root DIrectory/Github PAC
+
 Root directory – to enter root directory, use cd / (this means that root is the “base” of the terminal and nothing is in front of the “/”
 Exit root directory – To exit root directory, go to home, then username
 GitHub personal token access: “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”
 
-October 8, 2024
+October 8, 2024 - Root commander
 
 cd /   - change directory to root directory
 su -    Switch user to root
  
 
-Notes from Cybersecurity and networking
-
-
-October 9, 2024
+October 9, 2024 - Link for Git notes 
 
 Git Notes:
 https://smailpembinatrails-my.sharepoint.com/:w:/g/personal/aasikri_smail_pembinatrails_ca/ESgcHJQ6CRRDju2SaWq4Wg8B_xNZSWcQ7cijWtvG0NuTCQ?e=iTEUub
