@@ -1,4 +1,8 @@
-Table of Contents
+                                                Notes for Bash Scripting, System Monitoring, and System Security                             
+
+                            Table of Contents
+
+
 Bash Scripting
 Introduction
 Basic Syntax and Structure
