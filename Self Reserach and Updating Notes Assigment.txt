@@ -1,0 +1,144 @@
+Table of Contents
+Bash Scripting
+Introduction
+Basic Syntax and Structure
+Variables and Data Types
+Control Flow
+Input/Output
+Command-Line Arguments
+Advanced Topics
+Example Scripts
+System Monitoring
+Introduction
+Resource Monitoring
+Process Monitoring
+Log Analysis
+Performance Tuning
+Example Scripts
+System Security
+Introduction
+User and Group Management
+File and Directory Permissions
+Firewall Configuration
+Example Scripts
+1. Bash Scripting
+Introduction
+Bash scripting is a powerful tool for automating tasks and creating custom scripts in Linux environments. It allows you to combine various system commands and control the flow of execution using programming constructs.
+
+Basic Syntax and Structure
+Shebang line: The first line of a Bash script should be #!/bin/bash to specify the interpreter.
+Comments: Use # to add comments to your script.
+Variables: Declare variables using a dollar sign and a name, e.g., my_variable=value.
+Command execution: Use the backtick () or $() to execute commands within a script and capture their output.
+Variables and Data Types
+Strings: Store sequences of characters, e.g., name="Alice".
+Numbers: Store numerical values, e.g., age=30.
+Arrays: Store multiple values in a single variable, e.g., fruits=("apple" "banana" "orange").
+Control Flow
+Conditional statements:
+if-then-else: Execute code based on a condition.
+case: Match a value against multiple patterns.
+Loops:
+for: Iterate over a list of values.
+while: Repeat code as long as a condition is true.
+until: Repeat code until a condition is true.
+Input/Output
+Reading input: Use the read command to read user input.
+Writing output: Use the echo command to print text to the console.
+File I/O: Use redirection (>, >>, <) and piping (|) to handle file input and output.
+Command-Line Arguments
+Accessing arguments: Use $1, $2, $3, etc., to access command-line arguments.
+Special variables: $@ and $* represent all arguments.
+Advanced Topics
+Functions: Define reusable blocks of code.
+Regular expressions: Pattern matching for text manipulation.
+Debugging: Use set -x to enable tracing and set -e to stop execution on errors.
+Example Scripts
+1. Hello, World!
+
+Bash
+#!/bin/bash
+
+echo "Hello, World!"
+Use code with caution.
+
+2. Simple calculator
+
+Bash
+#!/bin/bash
+
+echo "Enter two numbers:"
+read num1 num2
+
+sum=$((num1 + num2))
+echo "Sum: $sum"
+Use code with caution.
+
+2. System Monitoring
+Introduction
+System monitoring is essential for understanding the performance and health of your system. It involves tracking various metrics such as CPU usage, memory consumption, disk I/O, and network traffic.
+
+Resource Monitoring
+CPU usage: Use top, htop, or mpstat to monitor CPU activity.
+Memory usage: Use free or top to check memory utilization.
+Disk I/O: Use iostat or df to monitor disk usage and performance.
+Network traffic: Use iftop or netstat to analyze network traffic.
+Process Monitoring
+Listing processes: Use ps or top to list running processes.
+Killing processes: Use kill or pkill to terminate processes.
+Log Analysis
+Viewing logs: Use tail, head, or less to examine log files.
+Filtering logs: Use grep or awk to search for specific patterns in logs.
+Performance Tuning
+Identifying bottlenecks: Analyze resource usage and identify performance issues.
+Optimizing system settings: Adjust kernel parameters or system configurations.
+Example Scripts
+1. Check disk usage
+
+Bash
+#!/bin/bash
+
+df -h
+Use code with caution.
+
+2. Monitor CPU usage
+
+Bash
+#!/bin/bash
+
+top
+Use code with caution.
+
+3. System Security
+Introduction
+System security is crucial to protect your system from unauthorized access and malicious attacks. It involves implementing various measures to safeguard your data and resources.
+
+User and Group Management
+Creating users: Use useradd to create new users.
+Managing passwords: Use passwd to change passwords.
+Creating groups: Use groupadd to create new groups.
+Assigning permissions: Use usermod and groups to assign users to groups.
+File and Directory Permissions
+Understanding permissions: Each file and directory has read, write, and execute permissions for the owner, group, and others.
+Changing permissions: Use chmod to modify permissions.
+Changing ownership: Use chown to change the owner of a file or directory.
+Firewall Configuration
+Using iptables: Configure firewall rules using iptables.
+Allowing traffic: Use iptables -A INPUT -p tcp -j ACCEPT to allow incoming TCP traffic.
+Denying traffic: Use iptables -A INPUT -j DROP to deny all incoming traffic.
+Example Scripts
+1. Create a new user
+
+Bash
+#!/bin/bash
+
+useradd newuser
+Use code with caution.
+
+2. Change file permissions
+
+Bash
+#!/bin/bash
+
+chmod 755 myfile
+Use code with caution.
