@@ -327,3 +327,47 @@ October 9, 2024 - Link for Git notes
 
 Git Notes:
 https://smailpembinatrails-my.sharepoint.com/:w:/g/personal/aasikri_smail_pembinatrails_ca/ESgcHJQ6CRRDju2SaWq4Wg8B_xNZSWcQ7cijWtvG0NuTCQ?e=iTEUub
+
+October 24, 2024 - GitKraken through terminal: commands
+
+A. Cloning a Repository
+
+Copy code
+
+    git clone https://github.com/username/repository.git
+
+B. Check Repository Status
+
+To check the status of the repository (changes, untracked files, etc.):
+
+    git status
+
+C. Staging Files for Commit
+
+Add files to the staging area:
+
+
+    git add filename
+
+Or add all modified files:
+
+
+    git add .
+
+D. Committing Changes
+
+Commit your changes with a message:
+
+    git commit -m "Your commit message"
+
+E. Pushing Changes to GitHub
+
+Push your local commits to the remote repository:
+
+    git push origin branch-name
+
+F. Pulling Changes
+
+To pull the latest changes from the remote repository:
+
+    git pull origin branch-name
